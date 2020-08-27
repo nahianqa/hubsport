@@ -58,6 +58,13 @@ public class ContactPageTest {
 		contactsPage.createNewContact(email, firstName, lastName, jobTitle);
 
 	}
+	
+	public void gittesnnt2() {
+		System.out.println("GITBranch concept");
+		System.out.println("GIT branch concept fin e22 ");
+		System.out.println("GIT works fin ejjj ");
+
+	}
 
 	@AfterMethod
 	public void quitBrowser() {

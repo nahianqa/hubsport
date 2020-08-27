@@ -61,15 +61,15 @@ public class LoginPageTest {
 	@Test(priority = 4)
 	//@Parameters({ "emailId", "password" })
 	public void gittest() {
-		System.out.println("GIT works ");
+		System.out.println("GIT works with branch conept ");
 		
 	}
 	
 	@Test(priority = 5)
 	//@Parameters({ "emailId", "password" })
 	public void gittest2() {
-		System.out.println("GIT works fin e ");
-		System.out.println("GIT works fin e22 ");
+		System.out.println("GITBranch concept");
+		System.out.println("GIT branch concept fin e22 ");
 		System.out.println("GIT works fin ejjj ");
 
 	}
