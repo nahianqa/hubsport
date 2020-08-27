@@ -57,6 +57,13 @@ public class LoginPageTest {
 		 homePage.getLoggedAccountName();
 		
 	}
+	
+	@Test(priority = 4)
+	//@Parameters({ "emailId", "password" })
+	public void gittest() {
+		System.out.println("GIT works ");
+		
+	}
 	@AfterClass
 	public void teardown() {
 		driver.quit();
