@@ -65,6 +65,8 @@ public class HomePageTest {
 		String title = homePage.getHomeTitle();
 		System.out.println("home page title is: " + title);
 		Assert.assertEquals(title, Constant.HOME_PAGE_TITLE);
+		System.out.println("GIT works fin e ");
+
 	}
 
 //	@AfterTest
