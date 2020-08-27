@@ -8,16 +8,22 @@
 <body>
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
-<tr><th colspan="7">Hub Spot Sanity Test Suite</th></tr>
-<tr><td><a href="#t0">hub spot sanity Test</a></td><td class="num">10</td><td class="num">0</td><td class="num">0</td><td class="num attn">2</td><td class="num">165,244</td><td></td><td></td></tr>
+<tr><th colspan="7">Default suite</th></tr>
+<tr><td><a href="#t0">Default test</a></td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">24,150</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Hub Spot Sanity Test Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">hub spot sanity Test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="2">com.qa.hubspot.test.HomePageTest</td><td><a href="#m0">verifyHomePageHeaderValueTest</a></td><td rowspan="1">1598461789905</td><td rowspan="1">30534</td></tr><tr class="failedeven"><td><a href="#m1">verifyLoggedInUserTest</a></td><td rowspan="1">1598461820450</td><td rowspan="1">74</td></tr><tr><th colspan="4">hub spot sanity Test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="5">com.qa.hubspot.test.ContactPageTest</td><td><a href="#m2">createNewContactTest</a></td><td rowspan="4">1598461900954</td><td rowspan="4">3821</td></tr><tr class="passedeven"><td><a href="#m3">createNewContactTest</a></td></tr><tr class="passedeven"><td><a href="#m4">createNewContactTest</a></td></tr><tr class="passedeven"><td><a href="#m5">createNewContactTest</a></td></tr><tr class="passedeven"><td><a href="#m6">verifyContactsPageTitleTest</a></td><td rowspan="1">1598461924082</td><td rowspan="1">516</td></tr><tr class="passedodd"><td rowspan="2">com.qa.hubspot.test.HomePageTest</td><td><a href="#m7">verifyHomePageAppLogo</a></td><td rowspan="1">1598461820526</td><td rowspan="1">42</td></tr><tr class="passedodd"><td><a href="#m8">verifyHomePageTitleTest</a></td><td rowspan="1">1598461820570</td><td rowspan="1">6</td></tr><tr class="passedeven"><td rowspan="3">com.qa.hubspot.test.LoginPageTest</td><td><a href="#m9">verifyLoginTest</a></td><td rowspan="1">1598461784801</td><td rowspan="1">4347</td></tr><tr class="passedeven"><td><a href="#m10">verifySignUpLinkTest</a></td><td rowspan="1">1598461784705</td><td rowspan="1">93</td></tr><tr class="passedeven"><td><a href="#m11">verifyloginPagetitle</a></td><td rowspan="1">1598461779343</td><td rowspan="1">5349</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Default suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Default test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">com.qa.hubspot.test.LoginPageTest</td><td><a href="#m0">verifyloginPagetitle</a></td><td rowspan="1">1598493603364</td><td rowspan="1">15291</td></tr></tbody>
 </table>
-<h2>hub spot sanity Test</h2><h3 id="m0">com.qa.hubspot.test.HomePageTest#verifyHomePageHeaderValueTest</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: home page header mismatched... expected [Sales Dashboard] but found [false]
-	at org.testng.Assert.fail(Assert.java:97)
-	at org.testng.Assert.assertEqualsImpl(Assert.java:136)
-	at org.testng.Assert.assertEquals(Assert.java:118)
-	at com.qa.hubspot.test.HomePageTest.verifyHomePageHeaderValueTest(HomePageTest.java:43)
+<h2>Default test</h2><h3 id="m0">com.qa.hubspot.test.LoginPageTest#verifyloginPagetitle</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">Report Started s verifyloginPagetitle</div></td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for title to contain &quot;HubSpot Login25&quot;. Current title: &quot;HubSpot Login&quot; (tried for 15 second(s) with 500 milliseconds interval)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;ADMIN-PC&apos;, ip: &apos;192.168.40.12&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_231&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.125, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\Users\Admin\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:51147}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 2336ee12f6e8ba6db3e2d22947cb68c8
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
+	at com.qa.hubspot.util.ElementUtil.waitForPageTitle(ElementUtil.java:124)
+	at com.qa.hubspot.pages.LogInPage.getTitle(LogInPage.java:25)
+	at com.qa.hubspot.test.LoginPageTest.verifyloginPagetitle(LoginPageTest.java:39)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -47,49 +53,5 @@
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 </div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m1">com.qa.hubspot.test.HomePageTest#verifyLoggedInUserTest</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: The following asserts failed:
-	did not expect to find [true] but found [false]
-	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:47)
-	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:31)
-	at com.qa.hubspot.test.HomePageTest.verifyLoggedInUserTest(HomePageTest.java:54)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:584)
-	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
-	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
-	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.util.ArrayList.forEach(Unknown Source)
-	at org.testng.TestRunner.privateRun(TestRunner.java:770)
-	at org.testng.TestRunner.run(TestRunner.java:591)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:304)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
-	at org.testng.TestNG.runSuites(TestNG.java:1032)
-	at org.testng.TestNG.run(TestNG.java:1000)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m2">com.qa.hubspot.test.ContactPageTest#createNewContactTest</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th></tr><tr class="param stripe"><td>nadir@gmail.com</td><td>nadir</td><td>ashraf</td><td>QA Director</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m3">com.qa.hubspot.test.ContactPageTest#createNewContactTest</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th></tr><tr class="param stripe"><td>sawmi28@gmail.com</td><td>Sawmi</td><td>Jannat</td><td>SDET Manager</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m4">com.qa.hubspot.test.ContactPageTest#createNewContactTest</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th></tr><tr class="param stripe"><td>Nahiana@gmail.com</td><td>Nahian</td><td>Faruqe</td><td>QA manager</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m5">com.qa.hubspot.test.ContactPageTest#createNewContactTest</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th></tr><tr class="param stripe"><td>manju@gmail.com</td><td>manju</td><td>Kodi</td><td>Dev eng</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m6">com.qa.hubspot.test.ContactPageTest#verifyContactsPageTitleTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m7">com.qa.hubspot.test.HomePageTest#verifyHomePageAppLogo</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m8">com.qa.hubspot.test.HomePageTest#verifyHomePageTitleTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m9">com.qa.hubspot.test.LoginPageTest#verifyLoginTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m10">com.qa.hubspot.test.LoginPageTest#verifySignUpLinkTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m11">com.qa.hubspot.test.LoginPageTest#verifyloginPagetitle</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">Report Started s verifyloginPagetitle<br/>loginpage title is HubSpot Login<br/>Report ends  verifyloginPagetitle</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>

@@ -64,6 +64,15 @@ public class LoginPageTest {
 		System.out.println("GIT works ");
 		
 	}
+	
+	@Test(priority = 5)
+	//@Parameters({ "emailId", "password" })
+	public void gittest2() {
+		System.out.println("GIT works fin e ");
+		System.out.println("GIT works fin e22 ");
+		System.out.println("GIT works fin ejjj ");
+
+	}
 	@AfterClass
 	public void teardown() {
 		driver.quit();
