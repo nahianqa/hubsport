@@ -1,0 +1,27 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 4, Errors: 0, Skipped: 0, Time elapsed: 175.046 s <<< FAILURE! - in TestSuite
+com.qa.hubspot.test.LoginPageTest.verifyloginPagetitle  Time elapsed: 12.071 s  <<< FAILURE!
+org.openqa.selenium.WebDriverException: 
+chrome not reachable
+  (Session info: chrome=81.0.4044.138)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ADMIN-PC', ip: '192.168.1.8', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 81.0.4044.138, chrome: {chromedriverVersion: 81.0.4044.138 (8c6c7ba89cc9..., userDataDir: C:\Users\Admin\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:61712}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: d2fa24966aa1ca0ba194542b2ebfad4a
+	at com.qa.hubspot.test.LoginPageTest.verifyloginPagetitle(LoginPageTest.java:37)
+
+com.qa.hubspot.test.LoginPageTest.verifySignUpLinkTest  Time elapsed: 12.133 s  <<< FAILURE!
+java.lang.AssertionError: did not expect to find [true] but found [false]
+	at com.qa.hubspot.test.LoginPageTest.verifySignUpLinkTest(LoginPageTest.java:45)
+
+com.qa.hubspot.test.HomePageTest.verifyLoggedInUserTest  Time elapsed: 24.217 s  <<< FAILURE!
+java.lang.AssertionError: did not expect to find [Digital point] but found [null]
+	at com.qa.hubspot.test.HomePageTest.verifyLoggedInUserTest(HomePageTest.java:53)
+
+com.qa.hubspot.test.HomePageTest.verifyHomePageTitleTest  Time elapsed: 11.97 s  <<< FAILURE!
+java.lang.AssertionError: did not expect to find [Reports dashboard] but found [null]
+	at com.qa.hubspot.test.HomePageTest.verifyHomePageTitleTest(HomePageTest.java:67)
+

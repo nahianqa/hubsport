@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="2" ignored="0" total="12" passed="10">
+  <reporter-output>
+    <line>
+      <![CDATA[Report Started s verifyloginPagetitle]]>
+    </line>
+    <line>
+      <![CDATA[loginpage title is HubSpot Login]]>
+    </line>
+    <line>
+      <![CDATA[Report ends  verifyloginPagetitle]]>
+    </line>
+  </reporter-output>
+  <suite name="Hub Spot Sanity Test Suite" duration-ms="165244" started-at="2020-08-26T13:09:20 EDT" finished-at="2020-08-26T13:12:05 EDT">
+    <groups>
+    </groups>
+    <test name="hub spot sanity Test" duration-ms="165244" started-at="2020-08-26T13:09:20 EDT" finished-at="2020-08-26T13:12:05 EDT">
+      <class name="com.qa.hubspot.test.LoginPageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.hubspot.test.LoginPageTest@799d4f69]" name="setUp" is-config="true" duration-ms="5946" started-at="2020-08-26T13:09:33 EDT" finished-at="2020-08-26T13:09:39 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyloginPagetitle()[pri:1, instance:com.qa.hubspot.test.LoginPageTest@799d4f69]" name="verifyloginPagetitle" duration-ms="5349" started-at="2020-08-26T13:09:39 EDT" finished-at="2020-08-26T13:09:44 EDT">
+          <reporter-output>
+            <line>
+              <![CDATA[Report Started s verifyloginPagetitle]]>
+            </line>
+            <line>
+              <![CDATA[loginpage title is HubSpot Login]]>
+            </line>
+            <line>
+              <![CDATA[Report ends  verifyloginPagetitle]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyloginPagetitle -->
+        <test-method status="PASS" signature="verifySignUpLinkTest()[pri:2, instance:com.qa.hubspot.test.LoginPageTest@799d4f69]" name="verifySignUpLinkTest" duration-ms="93" started-at="2020-08-26T13:09:44 EDT" finished-at="2020-08-26T13:09:44 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySignUpLinkTest -->
+        <test-method status="PASS" signature="verifyLoginTest()[pri:3, instance:com.qa.hubspot.test.LoginPageTest@799d4f69]" name="verifyLoginTest" duration-ms="4347" started-at="2020-08-26T13:09:44 EDT" finished-at="2020-08-26T13:09:49 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginTest -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.qa.hubspot.test.LoginPageTest@799d4f69]" name="teardown" is-config="true" duration-ms="754" started-at="2020-08-26T13:09:49 EDT" finished-at="2020-08-26T13:09:49 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.qa.hubspot.test.LoginPageTest -->
+      <class name="com.qa.hubspot.test.HomePageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.hubspot.test.HomePageTest@45afc369]" name="setUp" is-config="true" duration-ms="13319" started-at="2020-08-26T13:09:20 EDT" finished-at="2020-08-26T13:09:33 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="FAIL" signature="verifyHomePageHeaderValueTest()[pri:1, instance:com.qa.hubspot.test.HomePageTest@45afc369]" name="verifyHomePageHeaderValueTest" duration-ms="30534" started-at="2020-08-26T13:09:49 EDT" finished-at="2020-08-26T13:10:20 EDT">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[home page header mismatched... expected [Sales Dashboard] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: home page header mismatched... expected [Sales Dashboard] but found [false]
+at org.testng.Assert.fail(Assert.java:97)
+at org.testng.Assert.assertEqualsImpl(Assert.java:136)
+at org.testng.Assert.assertEquals(Assert.java:118)
+at com.qa.hubspot.test.HomePageTest.verifyHomePageHeaderValueTest(HomePageTest.java:43)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:584)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(Unknown Source)
+at org.testng.TestRunner.privateRun(TestRunner.java:770)
+at org.testng.TestRunner.run(TestRunner.java:591)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
+at org.testng.SuiteRunner.run(SuiteRunner.java:304)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
+at org.testng.TestNG.runSuites(TestNG.java:1032)
+at org.testng.TestNG.run(TestNG.java:1000)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHomePageHeaderValueTest -->
+        <test-method status="FAIL" signature="verifyLoggedInUserTest()[pri:2, instance:com.qa.hubspot.test.HomePageTest@45afc369]" name="verifyLoggedInUserTest" duration-ms="74" started-at="2020-08-26T13:10:20 EDT" finished-at="2020-08-26T13:10:20 EDT">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[The following asserts failed:
+did not expect to find [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: The following asserts failed:
+did not expect to find [true] but found [false]
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:47)
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:31)
+at com.qa.hubspot.test.HomePageTest.verifyLoggedInUserTest(HomePageTest.java:54)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:584)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(Unknown Source)
+at org.testng.TestRunner.privateRun(TestRunner.java:770)
+at org.testng.TestRunner.run(TestRunner.java:591)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
+at org.testng.SuiteRunner.run(SuiteRunner.java:304)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
+at org.testng.TestNG.runSuites(TestNG.java:1032)
+at org.testng.TestNG.run(TestNG.java:1000)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoggedInUserTest -->
+        <test-method status="PASS" signature="verifyHomePageAppLogo()[pri:3, instance:com.qa.hubspot.test.HomePageTest@45afc369]" name="verifyHomePageAppLogo" duration-ms="42" started-at="2020-08-26T13:10:20 EDT" finished-at="2020-08-26T13:10:20 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHomePageAppLogo -->
+        <test-method status="PASS" signature="verifyHomePageTitleTest()[pri:4, instance:com.qa.hubspot.test.HomePageTest@45afc369]" name="verifyHomePageTitleTest" duration-ms="6" started-at="2020-08-26T13:10:20 EDT" finished-at="2020-08-26T13:10:20 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHomePageTitleTest -->
+      </class> <!-- com.qa.hubspot.test.HomePageTest -->
+      <class name="com.qa.hubspot.test.ContactPageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.hubspot.test.ContactPageTest@49c43f4e]" name="setUp" is-config="true" duration-ms="16059" started-at="2020-08-26T13:10:21 EDT" finished-at="2020-08-26T13:10:37 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="createNewContactTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.hubspot.test.ContactPageTest@49c43f4e]" name="createNewContactTest" duration-ms="3533" started-at="2020-08-26T13:10:37 EDT" data-provider="getContactsTestData" finished-at="2020-08-26T13:10:40 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Nahiana@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Nahian]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Faruqe]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[QA manager]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createNewContactTest -->
+        <test-method status="PASS" signature="quitBrowser()[pri:0, instance:com.qa.hubspot.test.ContactPageTest@49c43f4e]" name="quitBrowser" is-config="true" duration-ms="769" started-at="2020-08-26T13:10:40 EDT" finished-at="2020-08-26T13:10:41 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitBrowser -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.hubspot.test.ContactPageTest@49c43f4e]" name="setUp" is-config="true" duration-ms="16547" started-at="2020-08-26T13:10:41 EDT" finished-at="2020-08-26T13:10:58 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="createNewContactTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.hubspot.test.ContactPageTest@49c43f4e]" name="createNewContactTest" duration-ms="3704" started-at="2020-08-26T13:10:58 EDT" data-provider="getContactsTestData" finished-at="2020-08-26T13:11:01 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[sawmi28@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Sawmi]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Jannat]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[SDET Manager]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createNewContactTest -->
+        <test-method status="PASS" signature="quitBrowser()[pri:0, instance:com.qa.hubspot.test.ContactPageTest@49c43f4e]" name="quitBrowser" is-config="true" duration-ms="682" started-at="2020-08-26T13:11:01 EDT" finished-at="2020-08-26T13:11:02 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitBrowser -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.hubspot.test.ContactPageTest@49c43f4e]" name="setUp" is-config="true" duration-ms="16813" started-at="2020-08-26T13:11:02 EDT" finished-at="2020-08-26T13:11:19 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="createNewContactTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.hubspot.test.ContactPageTest@49c43f4e]" name="createNewContactTest" duration-ms="4107" started-at="2020-08-26T13:11:19 EDT" data-provider="getContactsTestData" finished-at="2020-08-26T13:11:23 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[manju@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[manju]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Kodi]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Dev eng]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createNewContactTest -->
+        <test-method status="PASS" signature="quitBrowser()[pri:0, instance:com.qa.hubspot.test.ContactPageTest@49c43f4e]" name="quitBrowser" is-config="true" duration-ms="696" started-at="2020-08-26T13:11:23 EDT" finished-at="2020-08-26T13:11:24 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitBrowser -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.hubspot.test.ContactPageTest@49c43f4e]" name="setUp" is-config="true" duration-ms="16849" started-at="2020-08-26T13:11:24 EDT" finished-at="2020-08-26T13:11:40 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="createNewContactTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.hubspot.test.ContactPageTest@49c43f4e]" name="createNewContactTest" duration-ms="3821" started-at="2020-08-26T13:11:40 EDT" data-provider="getContactsTestData" finished-at="2020-08-26T13:11:44 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[nadir@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[nadir]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[ashraf]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[QA Director]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createNewContactTest -->
+        <test-method status="PASS" signature="quitBrowser()[pri:0, instance:com.qa.hubspot.test.ContactPageTest@49c43f4e]" name="quitBrowser" is-config="true" duration-ms="716" started-at="2020-08-26T13:11:44 EDT" finished-at="2020-08-26T13:11:45 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitBrowser -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.hubspot.test.ContactPageTest@49c43f4e]" name="setUp" is-config="true" duration-ms="18586" started-at="2020-08-26T13:11:45 EDT" finished-at="2020-08-26T13:12:04 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyContactsPageTitleTest()[pri:0, instance:com.qa.hubspot.test.ContactPageTest@49c43f4e]" name="verifyContactsPageTitleTest" duration-ms="516" started-at="2020-08-26T13:12:04 EDT" finished-at="2020-08-26T13:12:04 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyContactsPageTitleTest -->
+        <test-method status="PASS" signature="quitBrowser()[pri:0, instance:com.qa.hubspot.test.ContactPageTest@49c43f4e]" name="quitBrowser" is-config="true" duration-ms="680" started-at="2020-08-26T13:12:04 EDT" finished-at="2020-08-26T13:12:05 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitBrowser -->
+      </class> <!-- com.qa.hubspot.test.ContactPageTest -->
+    </test> <!-- hub spot sanity Test -->
+  </suite> <!-- Hub Spot Sanity Test Suite -->
+</testng-results>
