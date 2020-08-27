@@ -9,45 +9,24 @@
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
 <tr><th colspan="7">Suite</th></tr>
-<tr><td><a href="#t0">Test</a></td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num attn">4</td><td class="num">173,973</td><td></td><td></td></tr>
+<tr><td><a href="#t0">Test</a></td><td class="num">7</td><td class="num">0</td><td class="num">0</td><td class="num attn">2</td><td class="num">66,463</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="2">com.qa.hubspot.test.HomePageTest</td><td><a href="#m0">verifyHomePageTitleTest</a></td><td rowspan="1">1588971381446</td><td rowspan="1">12029</td></tr><tr class="failedeven"><td><a href="#m1">verifyLoggedInUserTest</a></td><td rowspan="1">1588971357369</td><td rowspan="1">24074</td></tr><tr class="failedodd"><td rowspan="2">com.qa.hubspot.test.LoginPageTest</td><td><a href="#m2">verifySignUpLinkTest</a></td><td rowspan="1">1588971296570</td><td rowspan="1">12042</td></tr><tr class="failedodd"><td><a href="#m3">verifyloginPagetitle</a></td><td rowspan="1">1588971284495</td><td rowspan="1">12041</td></tr><tr><th colspan="4">Test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">com.qa.hubspot.test.LoginPageTest</td><td><a href="#m4">verifyLoginTest</a></td><td rowspan="1">1588971308615</td><td rowspan="1">48163</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="2">com.qa.hubspot.test.HomePageTest</td><td><a href="#m0">verifyHomePageHeaderValueTest</a></td><td rowspan="1">1598518780236</td><td rowspan="1">30015</td></tr><tr class="failedeven"><td><a href="#m1">verifyLoggedInUserTest</a></td><td rowspan="1">1598518810266</td><td rowspan="1">75</td></tr><tr><th colspan="4">Test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="2">com.qa.hubspot.test.HomePageTest</td><td><a href="#m2">verifyHomePageAppLogo</a></td><td rowspan="1">1598518810341</td><td rowspan="1">43</td></tr><tr class="passedeven"><td><a href="#m3">verifyHomePageTitleTest</a></td><td rowspan="1">1598518810385</td><td rowspan="1">5</td></tr><tr class="passedodd"><td rowspan="5">com.qa.hubspot.test.LoginPageTest</td><td><a href="#m4">gittest</a></td><td rowspan="1">1598518779530</td><td rowspan="1">0</td></tr><tr class="passedodd"><td><a href="#m5">gittest2</a></td><td rowspan="1">1598518779531</td><td rowspan="1">0</td></tr><tr class="passedodd"><td><a href="#m6">verifyLoginTest</a></td><td rowspan="1">1598518774965</td><td rowspan="1">4564</td></tr><tr class="passedodd"><td><a href="#m7">verifySignUpLinkTest</a></td><td rowspan="1">1598518774877</td><td rowspan="1">87</td></tr><tr class="passedodd"><td><a href="#m8">verifyloginPagetitle</a></td><td rowspan="1">1598518768134</td><td rowspan="1">6739</td></tr></tbody>
 </table>
-<h2>Test</h2><h3 id="m0">com.qa.hubspot.test.HomePageTest#verifyHomePageTitleTest</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: did not expect to find [Reports dashboard] but found [null]
-	at com.qa.hubspot.test.HomePageTest.verifyHomePageTitleTest(HomePageTest.java:67)
+<h2>Test</h2><h3 id="m0">com.qa.hubspot.test.HomePageTest#verifyHomePageHeaderValueTest</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: home page header mismatched... expected [Sales Dashboard] but found [false]
+	at com.qa.hubspot.test.HomePageTest.verifyHomePageHeaderValueTest(HomePageTest.java:43)
 	at java.util.ArrayList.forEach(ArrayList.java:1257)
-... Removed 37 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m1">com.qa.hubspot.test.HomePageTest#verifyLoggedInUserTest</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: did not expect to find [Digital point] but found [null]
+... Removed 34 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">com.qa.hubspot.test.HomePageTest#verifyLoggedInUserTest</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: expected [Digital point] but found []
 	at com.qa.hubspot.test.HomePageTest.verifyLoggedInUserTest(HomePageTest.java:53)
 	at java.util.ArrayList.forEach(ArrayList.java:1257)
-... Removed 37 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m2">com.qa.hubspot.test.LoginPageTest#verifySignUpLinkTest</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: did not expect to find [true] but found [false]
-	at com.qa.hubspot.test.LoginPageTest.verifySignUpLinkTest(LoginPageTest.java:45)
-	at java.util.ArrayList.forEach(ArrayList.java:1257)
-... Removed 35 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m3">com.qa.hubspot.test.LoginPageTest#verifyloginPagetitle</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.WebDriverException: chrome not reachable
-  (Session info: chrome=81.0.4044.138)
-Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;ADMIN-PC&apos;, ip: &apos;192.168.1.8&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_231&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 81.0.4044.138, chrome: {chromedriverVersion: 81.0.4044.138 (8c6c7ba89cc9..., userDataDir: C:\Users\Admin\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:61712}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: d2fa24966aa1ca0ba194542b2ebfad4a
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
-	at org.openqa.selenium.remote.RemoteWebDriver.getTitle(RemoteWebDriver.java:281)
-	at org.openqa.selenium.support.ui.ExpectedConditions$2.apply(ExpectedConditions.java:86)
-	at org.openqa.selenium.support.ui.ExpectedConditions$2.apply(ExpectedConditions.java:81)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)
-	at com.qa.hubspot.util.ElementUtil.waitForPageTitle(ElementUtil.java:116)
-	at com.qa.hubspot.pages.LogInPage.getTitle(LogInPage.java:25)
-	at com.qa.hubspot.test.LoginPageTest.verifyloginPagetitle(LoginPageTest.java:37)
-	at java.util.ArrayList.forEach(ArrayList.java:1257)
-... Removed 35 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m4">com.qa.hubspot.test.LoginPageTest#verifyLoginTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+... Removed 36 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">com.qa.hubspot.test.HomePageTest#verifyHomePageAppLogo</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">com.qa.hubspot.test.HomePageTest#verifyHomePageTitleTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">com.qa.hubspot.test.LoginPageTest#gittest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">com.qa.hubspot.test.LoginPageTest#gittest2</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m6">com.qa.hubspot.test.LoginPageTest#verifyLoginTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m7">com.qa.hubspot.test.LoginPageTest#verifySignUpLinkTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m8">com.qa.hubspot.test.LoginPageTest#verifyloginPagetitle</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">Report Started s verifyloginPagetitle<br/>loginpage title is HubSpot Login<br/>Report ends  verifyloginPagetitle</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>

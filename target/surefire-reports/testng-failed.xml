@@ -6,18 +6,10 @@
     <parameter name="browser" value="Firefox"/>
     <parameter name="emailId" value="testuser"/>
     <classes>
-      <class name="com.qa.hubspot.test.LoginPageTest">
-        <methods>
-          <include name="verifyloginPagetitle"/>
-          <include name="teardown"/>
-          <include name="verifySignUpLinkTest"/>
-          <include name="setUp"/>
-        </methods>
-      </class> <!-- com.qa.hubspot.test.LoginPageTest -->
       <class name="com.qa.hubspot.test.HomePageTest">
         <methods>
-          <include name="verifyHomePageTitleTest"/>
           <include name="verifyLoggedInUserTest"/>
+          <include name="verifyHomePageHeaderValueTest"/>
           <include name="setUp"/>
         </methods>
       </class> <!-- com.qa.hubspot.test.HomePageTest -->

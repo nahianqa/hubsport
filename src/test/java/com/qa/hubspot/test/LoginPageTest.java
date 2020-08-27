@@ -70,7 +70,9 @@ public class LoginPageTest {
 	public void gittest2() {
 		System.out.println("GITBranch concept");
 		System.out.println("GIT branch concept fin e22 ");
-		System.out.println("GIT works fin ejjj ");
+		System.out.println("GIT push from deo team ");
+		
+		System.out.println("I lov bangladesh ");
 
 	}
 	@AfterClass
